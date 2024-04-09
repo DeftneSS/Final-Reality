@@ -1,11 +1,12 @@
 package personajes.paladin
 
-import personajes.abstractPersonajes.AbstractPersonajes
+import personajes.characterType.meleeCharacter.MeleeCharacter
+import scala.collection.mutable.Map
 
-class Paladin extends AbstractPersonajes {
-
-  override val nombre: String = ???
-  override var vida: Int = ???
-  override var defensa: Int = ???
-  override var peso: Int = ???
+class Paladin extends MeleeCharacter {
+  val nombre: String = ???
+  var vida: Int = ???
+  var defensa: Int = ???
+  var peso: Int = ???
+  val range: Int = ???
 }
