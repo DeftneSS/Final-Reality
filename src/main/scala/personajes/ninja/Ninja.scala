@@ -1,11 +1,12 @@
 package personajes.ninja
 
-import personajes.abstractPersonajes.AbstractPersonajes
+import personajes.characterType.meleeCharacter.MeleeCharacter
 
-class Ninja extends AbstractPersonajes {
+class Ninja extends MeleeCharacter {
 
-  override val nombre: String = ???
-  override var vida: Int = ???
-  override var defensa: Int = ???
-  override var peso: Int = ???
+  val nombre: String = ???
+  var vida: Int = ???
+  var defensa: Int = ???
+  var peso: Int = ???
+  val range: Int = ???
 }

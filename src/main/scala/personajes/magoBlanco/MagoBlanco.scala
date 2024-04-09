@@ -1,11 +1,12 @@
 package personajes.magoBlanco
 
-import personajes.abstractPersonajes.AbstractPersonajes
+import personajes.characterType.rangedCharacter.RangedCharacter
 
-class MagoBlanco extends AbstractPersonajes {
+class MagoBlanco extends RangedCharacter {
 
-  override val nombre: String = ???
-  override var vida: Int = ???
-  override var defensa: Int = ???
-  override var peso: Int = ???
+  val nombre: String = ???
+  var vida: Int = ???
+  var defensa: Int = ???
+  var peso: Int = ???
+  val range: Int = ???
 }
